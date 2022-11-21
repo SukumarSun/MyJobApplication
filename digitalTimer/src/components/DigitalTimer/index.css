@@ -1,0 +1,119 @@
+/* Write your CSS here */
+
+* {
+  box-sizing: border-box;
+}
+
+.outside {
+  background-color: rgb(179, 241, 241);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.inside {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  padding: 30px;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.timer-inside {
+  width: 130px;
+  height: 130px;
+  border-radius: 90px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  background-color: white;
+}
+
+.timer-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-para {
+  font-weight: bold;
+  font-size: 20px;
+  color: crimson;
+  border: 2px solid green;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.timer-core {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.time-pause {
+  border: 2px solid grey;
+}
+
+.top {
+  display: flex;
+  padding: 30px;
+}
+
+.timer-count {
+  display: flex;
+}
+
+.count {
+  background-color: aqua;
+  padding: 10px;
+  border: 2px solid green;
+  margin: 10px;
+  border-radius: 10px;
+  width: 80px;
+  text-align: center;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.regulate {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

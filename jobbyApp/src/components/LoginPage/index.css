@@ -1,0 +1,88 @@
+.each-input {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.outside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  width: 30%;
+  height: 350px;
+  align-items: center;
+  background-color: rgb(46, 41, 41);
+}
+
+.login-logo {
+  width: 120px;
+  margin: 10px;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.enter {
+  background-color: rgb(46, 41, 41);
+  border: 1px solid grey;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.each-label {
+  margin-top: 5px;
+}
+
+.login {
+  background-color: rgb(8, 35, 117);
+  border: none;
+  color: white;
+  margin-top: 25px;
+  font-size: 14px;
+  height: 35px;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 576px) {
+  .outside {
+    min-height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .inside {
+    width: 90%;
+    padding: 20px;
+    /* border: 2px solid green; */
+  }
+
+  .login-box {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.outside-latest {
+  display: flex;
+  border: 1px solid blue;
+  justify-content: space-between;
+  padding: 7px;
+  /* border-radius: 7px; */
+  background-color: black;
+  align-items: center;
+  margin-top: -8px;
+}
+
+.left-latest {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  color: white;
+  width: 30%;
+}
+
+.each {
+  font-size: 10px;
+  margin: 2px;
+}
+
+.c-team-logo {
+  width: 80px;
+}
+
+.right {
+  text-align: right;
+}

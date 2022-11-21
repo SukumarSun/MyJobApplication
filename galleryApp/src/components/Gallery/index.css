@@ -1,0 +1,16 @@
+/* Write your code here. */
+
+.unordered {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.outside {
+  padding: 30px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.thumb-out {
+  width: 80%;
+}

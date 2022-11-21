@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+
+.contact-outside {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.contact-img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,116 @@
+/* Write your CSS here */
+
+.outside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.inside {
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+}
+
+.head {
+  font-size: 20px;
+}
+
+.click-button {
+  width: 60px;
+  background-color: rgb(33, 99, 221);
+  border-radius: 5px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.transaction-box {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border: 2px solid blue;
+  padding: 30px;
+}
+
+.label-font {
+  font-size: 12px;
+  margin: 5px;
+}
+
+.drop-down {
+  background-color: white;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bottom {
+  display: flex;
+}
+
+.history {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  border: 2px solid blue;
+  border-radius: 8px;
+}
+
+.history-head {
+  display: flex;
+  border: 2px solid gray;
+  padding-left: 38px;
+  width: 80%;
+}
+.history-title {
+  margin: 10px;
+  font-size: 10px;
+  list-style: none;
+  border: 2px solid red;
+}
+
+.history-block-head {
+  font-size: 14px;
+}
+
+.unordered {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+
+  border: 2px solid blue;
+  margin-top: -3px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 48px;
+  list-style-type: none;
+  border: 1px solid #cbd5e1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.history-title {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  width: 30%;
+  border-right: none;
+}

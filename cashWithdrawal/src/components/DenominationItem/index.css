@@ -1,0 +1,14 @@
+/* Write your CSS here */
+
+.list {
+  list-style: none;
+}
+.but {
+  margin: 10px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+.but:hover {
+  background-color: aquamarine;
+}

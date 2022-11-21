@@ -1,0 +1,28 @@
+/* Write your CSS here */
+
+.list {
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+  flex-grow: 1;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid gray;
+}
+.top-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,90 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  padding: 30px;
+  background-color: rgb(194, 168, 218);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70%;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.appointments-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.input-head {
+  font-size: 12px;
+}
+
+.but {
+  width: 70px;
+  background-color: coral;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.line {
+  width: 100%;
+  margin-top: 30px;
+  color: rgba(199, 9, 34, 0.849);
+}
+
+.unorder {
+  display: flex;
+  justify-content: center;
+  max-width: 700px;
+  flex-wrap: wrap;
+}
+
+.appointment-tab {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unstarred-btn {
+  background-color: rgb(219, 216, 212);
+  border-radius: 6px;
+  font-size: 12px;
+  width: 80px;
+  height: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tab-head {
+  font-size: 20px;
+}
+
+.active-btn {
+  background-color: darkcyan;
+}

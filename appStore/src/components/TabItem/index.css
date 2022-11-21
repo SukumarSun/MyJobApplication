@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.list-tab {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 10px;
+  width: 100%;
+}
+.line-box {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.line {
+  width: 50px;
+  border: 2px solid grey;
+}

@@ -1,0 +1,44 @@
+/* Write your code here. */
+
+.outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding: 30px;
+  background-color: aquamarine;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  width: 30%;
+  padding: 30px;
+}
+
+.but {
+  width: 300px;
+  background-color: bisque;
+  padding: 5px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.input {
+  border-radius: 6px;
+}

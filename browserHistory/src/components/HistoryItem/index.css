@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.block {
+  display: flex;
+}
+.each {
+  list-style: none;
+  padding: 10px;
+}
+
+.time {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.font {
+  font-size: 14px;
+  padding: 10px;
+}
+.block-inside {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.block-inside-left {
+  display: flex;
+}
+.delete-img {
+  width: 20px;
+  height: 20px;
+}
+
+.delete-img-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo-img-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.domainUrl {
+  font-weight: 500;
+  color: grey;
+}

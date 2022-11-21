@@ -1,0 +1,26 @@
+.image {
+  width: 150px;
+  height: 130px;
+}
+
+.imageList {
+  list-style: none;
+  margin: 5px;
+  padding-top: 5px;
+}
+
+.imagebutton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.imagebutton:hover {
+  background-color: hsl(7, 59%, 53%);
+  transition: 0.7s;
+}
+
+@media screen and (max-width: 576px) {
+  .image {
+    width: 150px;
+  }
+}

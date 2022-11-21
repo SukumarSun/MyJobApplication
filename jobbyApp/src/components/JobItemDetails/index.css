@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+.company-outside {
+  background-color: black;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.company-inside {
+  background-color: rgba(59, 53, 53, 0.705);
+  border-radius: 8px;
+  padding: 40px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.company-top-box {
+  display: flex;
+  align-items: center;
+}
+
+.company-top-box-inside {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.company-img {
+  width: 80px;
+  height: 80px;
+}
+
+.company-mid-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-mid-box-inside {
+  display: flex;
+}
+
+.location {
+  margin-right: 10px;
+}
+
+.horizontal-line {
+  border: 1px solid white;
+  width: 100%;
+}
+
+.job-description-para {
+  font-size: 16px;
+}
+
+.skill-section {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.eachskill {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  /* border: 2px solid yellow; */
+  margin-bottom: 30px;
+}
+
+.skill-list {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 0px;
+  /* border: 2px solid blue; */
+}
+
+.skill-img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+.company-worklife {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company-worklife-para-box {
+  width: 65%;
+}
+
+.company-worklife-description {
+  font-size: 14px;
+}
+
+.failed-view {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.failure-img {
+  width: 100%;
+}
+
+.company-work-img {
+  width: 30%;
+}
+
+@media screen and (max-width: 576px) {
+  .company-worklife {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills-name {
+    font-size: 12px;
+  }
+
+  .company-worklife-description {
+    font-size: 12px;
+  }
+
+  .company-work-img {
+    width: 100%;
+  }
+}
+
+.similar {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.similar-list {
+  display: flex;
+  padding: 0px;
+}
+
+.changesimilar {
+  background-color: black;
+  padding: 0px;
+}
+
+.to-anchor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.failed-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logged-out {
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(38, 106, 161);
+}
+
+.failrender {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 576px) {
+  .job-description-para {
+    font-size: 12px;
+  }
+
+  .skill-list {
+    justify-content: space-between;
+  }
+  .eachskill {
+    width: 100px;
+    margin-right: 10px;
+  }
+  .skill-img {
+    width: 40px;
+    height: 40px;
+  }
+  .company-img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .comapany-rating {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .company-outside {
+    padding: 10px;
+  }
+  .company-inside {
+    margin-top: 30px;
+    padding: 10px;
+  }
+  .company-mid-box {
+    font-size: 12px;
+  }
+
+  .similar-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .similar {
+    margin-bottom: -20px;
+  }
+  /* 
+  .company-top-box-inside {
+    /* height: 50px; */
+  /* margin-top: 0px; */
+}

@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+
+.about-outside {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.about-img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.list {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px;
+  max-width: 300px;
+  background-color: burlywood;
+  margin: 10px;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.title-box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.para {
+  font-size: 12px;
+}
+.money-unordered-list {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  border: 2px solid green;
+}

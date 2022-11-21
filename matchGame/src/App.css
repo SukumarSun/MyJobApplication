@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tabUnorder {
+  display: flex;
+  margin-left: -30px;
+}
+
+.imageUnorder {
+  margin-left: -40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .imageUnorder {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.gameover {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  line-height: 3px;
+  height: 90vh;
+  display: flex;
+  border: 2px solid red;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.outside {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 30px;
+  border: 2px solid yellow;
+}
+
+.inside {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  display: flex;
+  width: 80%;
+  min-height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.bottom {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trophy {
+  width: 250px;
+}
+
+.resetbox {
+  color: white;
+  background-color: black;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.mainimg {
+  width: 60%;
+}
+
+@media screen and (max-width: 576px) {
+  .gameover {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .trophy {
+    width: 150px;
+  }
+
+  .mainimg {
+    width: 90%;
+  }
+
+  .bottom {
+    max-height: 600px;
+    overflow-y: scroll;
+  }
+
+  .inside {
+    min-height: 80vh;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .outside {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

@@ -1,0 +1,57 @@
+/* Write your CSS here */
+
+.team-match-outside {
+  min-height: 100vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-match-inside {
+  width: 40%;
+  height: 90%;
+  padding: 10px;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  background-color: rgb(32, 24, 24);
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 576px) {
+  .team-match-inside {
+    width: 80%;
+  }
+}
+
+.banner {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.match-unorder {
+  border: 2px solid black;
+  background-color: rgba(68, 66, 66, 0.918);
+  display: flex;
+  /* border: 2px solid yellow; */
+  width: 100%;
+  padding-right: 35px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .match-unorder {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.unorder-personal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

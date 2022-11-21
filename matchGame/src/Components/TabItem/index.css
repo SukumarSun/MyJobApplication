@@ -1,0 +1,26 @@
+.tabList {
+  margin: 5px;
+  padding: 5px;
+  list-style: none;
+}
+
+.actualfont {
+  background-color: black;
+  color: white;
+  padding: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+}
+
+.red {
+  font-weight: bold;
+  color: yellow;
+}
+
+@media screen and (max-width: 576px) {
+  .actualfont {
+    font-size: 10px;
+    width: 60px;
+  }
+}

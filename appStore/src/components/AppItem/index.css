@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+.list {
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.logo-img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,29 @@
+/* Write your CSS code here */
+
+.list-outer {
+  display: flex;
+  justify-content: space-between;
+
+  border: 2px solid red;
+}
+
+.currency-logo-box {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.euro {
+  display: flex;
+  align-items: center;
+}
+
+.para {
+  margin: 10px;
+}

@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.teamcard-list {
+  display: flex;
+  align-items: center;
+  /* box-shadow: 0px 4px 256px 0px 'green'; */
+  padding: 20px;
+  background-color: black;
+  border: 1px solid rgb(194, 25, 25);
+  border-radius: 8px;
+  margin: 10px;
+  color: white;
+  width: 250px;
+}
+
+.teamImg {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}

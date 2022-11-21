@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+
+.list-item {
+  display: flex;
+  list-style: none;
+}
+
+.link {
+  width: 80%;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0px 4px 200px 0px #bfbfbf;
+}
+
+.left-img {
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.avathar-block {
+  display: flex;
+  align-items: center;
+}
+
+.avathar-img {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 16px;
+}

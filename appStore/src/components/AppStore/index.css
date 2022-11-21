@@ -1,0 +1,77 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  padding: 30px;
+  background-color: grey;
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 80%;
+  border: 2px solid orange;
+}
+
+.head {
+  text-align: center;
+}
+
+.search-box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: white;
+}
+
+.search-img-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-input {
+  border: none;
+  font-size: 16px;
+}
+
+.unordered-tab {
+  display: flex;
+  text-align: center;
+}
+
+.top-personal {
+  width: 70%;
+  border: 2px solid violet;
+  display: flex;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.bottom {
+  border: 2px solid black;
+  width: 80%;
+}
+.unordered-app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}

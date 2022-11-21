@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+
+.home-outside {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.home-img {
+  width: 100px;
+  height: 100px;
+}
